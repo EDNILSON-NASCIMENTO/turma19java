@@ -1,6 +1,6 @@
 package entidades;
 
-public class Produto {
+public abstract class Produto {
 
 	 //atributos
 	 private String descricao;

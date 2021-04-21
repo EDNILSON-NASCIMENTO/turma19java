@@ -47,5 +47,8 @@ public class Conta {
 		 saldo = saldo + valor;
 	 }
 	
+	 public double saldoAjustado(double percentual) {
+		 return (saldo * percentual)+saldo;
+	 }
 	
 }
